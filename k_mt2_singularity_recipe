@@ -63,7 +63,7 @@ From: ubuntu:16.04
     cd /research
     git clone https://github.com/heathergoldsby/ealib.git
     cp /staging/Jamfile /research/ealib/libea/Jamfile
-    git clone https://github.com/heathergoldsby/mt2.git
+    git clone https://github.com/kgskocelas/mt2.git
     cd /research/mt2
     b2 release
 
