@@ -1,5 +1,5 @@
 # Singularity Recipe for mt2
-# Austin Ferguson 11/4/2019
+# Austin Ferguson 11/4/2019 + Katherine Skocelas 11/28/2023
 
 
 #### TODO ####
@@ -61,7 +61,7 @@ From: ubuntu:16.04
 
     # Download ealib + avida, and compile avida
     cd /research
-    git clone https://github.com/dknoester/ealib.git
+    git clone https://github.com/heathergoldsby/ealib.git
     cp /staging/Jamfile /research/ealib/libea/Jamfile
     git clone https://github.com/kgskocelas/mt2.git
     cd /research/mt2
