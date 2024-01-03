@@ -86,4 +86,4 @@ From: ubuntu:16.04
 # Here, we just run the major transitions avida project, passing all arguments along
 %runscript
     echo "Arguments received: $*"
-    /research/mt2/bin/clang-linux-9.0.0/release/link-static/mt_lr_gls -c /research/mt2/etc/major_transitions.cfg $*
+    /research/mt2/bin/clang-linux-9.0.0/release/link-static/mt_lr_gls -c /research/mt2_w_aborts/etc/major_transitions.cfg $*
