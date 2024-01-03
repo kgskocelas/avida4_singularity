@@ -64,7 +64,7 @@ From: ubuntu:16.04
     git clone https://github.com/dknoester/ealib.git
     cp /staging/Jamfile /research/ealib/libea/Jamfile
     git clone https://github.com/kgskocelas/mt2_w_aborts.git
-    cd /research/mt2
+    cd /research/mt2_w_aborts
     b2 release
 
     # Uninstall some things to make image smaller (I'm sure there's more we could purge..."
