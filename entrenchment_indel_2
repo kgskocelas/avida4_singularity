@@ -61,8 +61,8 @@ From: ubuntu:16.04
     cp /staging/Jamfile /research/ealib/libea/Jamfile
     #### REPLACE THE LINK ON THE NEXT LINE WITH YOUR FORKED REPO ####
     git clone https://github.com/kgskocelas/AvidaMT.git
-    git checkout 7c4333c
     cd /research/AvidaMT
+    git checkout 7c4333c
     b2 release
 
     # Uninstall what's no longer needed to make final image smaller 
